@@ -1,0 +1,49 @@
+body {
+    background-color: #EBF1F7; /* Color de fondo */
+    font-family: Gadugi, sans-serif; /* Fuente por defecto */
+
+}
+
+#contenedor1{
+    width: 330px;
+    height: 460px;
+    background-color: #E7EAFD;
+    
+    padding: 10px  50px 100px  25px;
+
+    border-width: 1px 1px 1px 1px;
+    border-style: ridge;
+
+    margin-left: 400px;
+    margin-top: 1px;
+}
+#contenedor2{
+  margin-left: 200px;
+  margin-right: 500px;
+  margin-top: 1px;
+}
+#contenedor3{
+    display: flex;
+    align-items: center; /* Alinea verticalmente imagen y texto */
+    gap: 10px; /* Espacio entre la imagen y el título */
+}
+#contenedor3 img{
+    width: 50px; /* Ajusta el tamaño de la imagen según lo necesites */
+    height: auto;
+}
+
+
+#experiencia1{
+    width: 800px;
+    height: 160px;
+    background-color: #B3B6D5;
+}
+#experiencia2{
+    width: 800px;
+    height: 100px;
+    background-color: #B3B6D5;
+}
+
+.negrita{
+      font-weight: bold;
+}
